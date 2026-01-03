@@ -1,0 +1,7 @@
+{
+  "name": "Voltage Analyzer Pro",
+  "description": "Advanced tool for analyzing EV charger logs, visualizing voltage stability, detecting phase imbalances, and generating health reports.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
