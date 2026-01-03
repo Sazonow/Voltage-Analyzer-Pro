@@ -23,9 +23,32 @@ View your app in AI Studio: https://ai.studio/apps/drive/1pMP33KwNToOtvDVCGIlw7O
 
 ## Deploy to GitHub Pages
 
-This project is configured to automatically deploy to GitHub Pages when you push to the `main` branch. The deployment workflow will:
+### 🚀 Quick Deploy (Immediate)
+
+Run this command to deploy immediately:
+
+```bash
+npm run deploy
+```
+
+Or use the script:
+
+```bash
+./deploy.sh
+```
+
+Then configure GitHub Pages:
+1. Go to [Settings → Pages](https://github.com/Sazonow/Voltage-Analyzer-Pro/settings/pages)
+2. Set **Source** to "Deploy from a branch"
+3. Select branch: **gh-pages** and folder: **/ (root)**
+
+Your site will be live at: https://sazonow.github.io/Voltage-Analyzer-Pro/
+
+### Automatic Deploy (via GitHub Actions)
+
+This project is also configured to automatically deploy to GitHub Pages when you push to the `main` branch. The deployment workflow will:
 
 1. Build the application using Vite
 2. Deploy the built files to GitHub Pages
 
-Make sure GitHub Pages is enabled in your repository settings and set to deploy from GitHub Actions.
+For automatic deployment, set **Source** to "GitHub Actions" in repository settings.
