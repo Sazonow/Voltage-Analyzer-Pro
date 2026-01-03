@@ -123,6 +123,7 @@ When adding new user-facing text:
 
 - The application uses Google Gemini AI for analysis assistance
 - API key should be stored in `.env.local` as `GEMINI_API_KEY`
+- **IMPORTANT**: Ensure `.env.local` is listed in `.gitignore` to prevent accidental commits of sensitive data
 - AI features are optional and should degrade gracefully if unavailable
 
 ## Important Considerations
