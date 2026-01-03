@@ -7,7 +7,7 @@ Voltage Analyzer Pro is a React-based web application for analyzing voltage data
 ## Tech Stack
 
 - **Frontend Framework**: React 18.2.0 with TypeScript
-- **Build Tool**: Vite 5.0
+- **Build Tool**: Vite ^5.0.0
 - **Charting Library**: Recharts 2.12.7
 - **AI Integration**: Google GenAI (@google/genai ^0.2.1)
 - **Styling**: Tailwind CSS (via inline classes)
